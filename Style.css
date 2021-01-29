@@ -1,0 +1,13 @@
+.logo {
+  padding-left: 10px;
+  padding-top: -10px;
+}
+
+.navbar  {
+	padding-left: 60px;
+	padding-top: 30px;
+}
+
+.navbar-nav{
+	align-items: center;
+}
