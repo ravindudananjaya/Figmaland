@@ -10,6 +10,7 @@ body {
 	left: 0px;*/
 	/*top: 30px;*/
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.2) 25.5%, #FFFFFF 70.92%);
+
 }
 
 .vector1{
@@ -18,7 +19,7 @@ body {
 	left: -39.61px;
 	top: 17.73%;
 	bottom: -73238.8%;
-
+	z-index: -1;
 	transform: rotate(0deg);
 }
 
@@ -28,7 +29,7 @@ height: 475.1px;
 left: 81.98%;
 right: -53.86%;
 top: 466px;
-
+z-index: -1;
 
 
 }
@@ -172,9 +173,10 @@ top: 2050px;
 }
 
 .txt{
-	width: 75%
-}
+	width: 75%;
+	text-align: center;
 
 .digit{
 	text-align: right;
 }
+
