@@ -1,13 +1,70 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px;
+
+	position: static;
+	width: 1282px;
+	height: 1489px;
+	left: 0px;
+	top: 30px;
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.6) 25.5%, #FFFFFF 70.92%);
+}
+
 .logo {
-  padding-left: 10px;
-  padding-top: -10px;
+	position: static;
+	width: 186px;
+	height: 58px;
+	left: 10px;
+	top: 10px;
+	margin: 40px	
 }
 
 .navbar  {
 	padding-left: 60px;
-	padding-top: 30px;
+	padding-top: 50px;
 }
 
 .navbar-nav{
-	align-items: center;
+	padding-top: 10px;
+	padding-left: 50px;
 }
+
+.nav-link{
+
+color: black;
+font-weight: 550;
+font-size: 18px;
+line-height: 20px;
+}
+
+#login{
+	padding-left: 90px;
+	padding-top: 50px
+
+
+}
+
+#loginbtn{
+	width: 130px;
+	height: 42px;
+	left: 54px;
+	top: 232px;
+	background: white;
+	border: 2px solid #00B6F0;
+ 	box-sizing: border-box;
+	border-radius: 85px;
+
+
+}
+
+#header{
+	text-align: center;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 78px;
+	letter-spacing: 0.2px;
+	color: #112D57;
+}
+
