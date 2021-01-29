@@ -1,5 +1,5 @@
 body {
-	display: flex;
+/*	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 0px;
@@ -7,8 +7,8 @@ body {
 	position: static;
 	width: 1282px;
 	height: 1489px;
-	left: 0px;
-	top: 30px;
+	left: 0px;*/
+	/*top: 30px;*/
 	background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.2) 25.5%, #FFFFFF 70.92%);
 }
 
@@ -43,23 +43,9 @@ top: 466px;
 
 }
 
-.navbar  {
-	padding-left: 60px;
-	padding-top: 50px;
+.navbar-collapse{
 
-}
 
-.navbar-nav{
-	padding-top: 10px;
-	padding-left: 50px;
-}
-
-.nav-link{
-
-color: black;
-font-weight: 550;
-font-size: 18px;
-line-height: 20px;
 }
 
 #login{
@@ -105,41 +91,15 @@ line-height: 20px;
 	color: #5C5C5C;
 }
 
-#btns {
-	padding-top: 40px;
+
+.navbar-nav{
+	margin-left: 12%;
+	font-size: 20px;
 }
 
-#getstarted{
-	padding-left: 70px;
+.nav1{
+	margin-left: 15%;
 }
-
-#getstartedbtn{
-	width: 130px;
-	height: 42px;
-	left: 54px;
-	top: 232px;
-	background: #00B6F0;
-	border: 2px solid #00B6F0;
- 	box-sizing: border-box;
-	border-radius: 85px;
-	box-shadow: 1px 1px 8px #888888;
-
-
-
-}
-
-#trybtn{
-	width: 130px;
-	height: 42px;
-	left: 54px;
-	top: 232px;
-	background: white;
-	border: 2px solid white;
- 	box-sizing: border-box;
-	border-radius: 85px;
-	box-shadow: 1px 1px 8px #888888;
-}
-
 #navBG{
 	position: absolute;
 	width: 1119.78px;
@@ -191,4 +151,26 @@ line-height: 20px;
 	top: 153px;
 	box-shadow: 4px 4px 8px #888888;
 
+}
+
+
+.banner-content {
+    width: 50%;
+        text-align: center;
+}
+
+.btn-get-started {
+	background: #00B6F0;
+	border: 2px solid #fff;
+ 	box-sizing: border-box;
+	border-radius: 85px;
+	box-shadow: 1px 1px 8px #888888;
+}
+
+.btn-try-free {
+	background: #fff;
+	border: 2px solid #fff;
+ 	box-sizing: border-box;
+	border-radius: 85px;
+	box-shadow: 1px 1px 8px #888888;
 }
