@@ -9,7 +9,7 @@ body {
 	height: 1489px;
 	left: 0px;
 	top: 30px;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.6) 25.5%, #FFFFFF 70.92%);
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 7.62%, rgba(0, 225, 198, 0.2) 25.5%, #FFFFFF 70.92%);
 }
 
 .logo {
@@ -19,11 +19,13 @@ body {
 	left: 10px;
 	top: 10px;
 	margin: 40px	
+
 }
 
 .navbar  {
 	padding-left: 60px;
 	padding-top: 50px;
+
 }
 
 .navbar-nav{
@@ -40,7 +42,7 @@ line-height: 20px;
 }
 
 #login{
-	padding-left: 90px;
+	padding-left: 120px;
 	padding-top: 50px
 
 
@@ -59,12 +61,61 @@ line-height: 20px;
 
 }
 
-#header{
+#typography{
+	padding-top: 100px;
 	text-align: center;
+}
+
+#header{
+	
 	font-weight: 900;
 	font-size: 72px;
 	line-height: 78px;
 	letter-spacing: 0.2px;
 	color: #112D57;
+}
+
+#text{
+	font-weight: 450;
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.2px;
+	padding-top: 30px;
+	color: #5C5C5C;
+}
+
+#btns {
+	padding-top: 40px;
+}
+
+#getstarted{
+	padding-left: 70px;
+}
+
+#getstartedbtn{
+	width: 130px;
+	height: 42px;
+	left: 54px;
+	top: 232px;
+	background: #00B6F0;
+	border: 2px solid #00B6F0;
+ 	box-sizing: border-box;
+	border-radius: 85px;
+	box-shadow: 1px 1px 8px #888888;
+
+
+
+}
+
+#trybtn{
+	width: 130px;
+	height: 42px;
+	left: 54px;
+	top: 232px;
+	background: white;
+	border: 2px solid white;
+ 	box-sizing: border-box;
+	border-radius: 85px;
+	box-shadow: 1px 1px 8px #888888;
 }
 
