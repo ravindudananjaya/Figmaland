@@ -144,7 +144,7 @@ line-height: 20px;
 	position: absolute;
 	width: 1119.78px;
 	height: 52.63px;
-	top: 100px;
+	top: 680px;
 	box-shadow: 4px 4px 8px #888888;
 	
 }
@@ -153,9 +153,8 @@ line-height: 20px;
 	position: absolute;
 	width: 979.06px;
 	height: 23.92px;
-	left: 138.45px;
-	top: 113px;
-
+	left: 198.45px;
+	top: 695px;
 	
 }
 
@@ -163,32 +162,32 @@ line-height: 20px;
 	position: absolute;
 	width: 13.64px;
 	height: 11.96px;
-	left: 50.54px;
-	top: 117.57px;
+	left: 112.54px;
+	top: 700.57px;
 }
 
 #nav2{
 	position: absolute;
 	width: 13.64px;
 	height: 11.96px;
-	left: 70.54px;
-	top: 117.57px;
+	left: 132.54px;
+	top: 700.57px;
 }
 
 #nav3{
 	position: absolute;
 	width: 13.64px;
 	height: 11.96px;
-	left: 90.54px;
-	top: 117.57px;
+	left: 152.54px;
+	top: 700.57px;
 }
 
 #dash{
 	position: absolute;
-	width: 1118.7px;
-	height: 750px;
-	left:15.54px;
-	top: 153px;
-	box-shadow: 4px 4px 8px #888888;
+width: 1118.7px;
+height: 750px;
+left: 81.54px;
+top: 733px;
+box-shadow: 4px 4px 8px #888888;
 
 }
