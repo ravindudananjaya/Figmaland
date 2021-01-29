@@ -41,6 +41,14 @@ left: 1063.5px;
 top: 1700px;
 }
 
+.vector4{
+position: absolute;
+width: 398px;
+height: 497px;
+left: -10px;
+top: 2050px;
+}
+
 .logo {
 	position: static;
 	width: 186px;
@@ -134,4 +142,39 @@ top: 1700px;
 .text3{
 	font-size: 24px;
 	 margin-bottom: 10px;
+}
+
+.box{
+	padding: 100px;
+}
+
+.text4{
+	font-size: 36px;
+}
+
+.text5{
+	font-size: 24px;
+	padding-top: 20px;
+
+}
+
+.box{
+	width: 50%;
+	padding-top: 120px;
+        text-align: center;
+}
+
+
+.process{
+	width: 75%;
+	 text-align: center;
+
+}
+
+.txt{
+	width: 75%
+}
+
+.digit{
+	text-align: right;
 }
