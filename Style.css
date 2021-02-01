@@ -24,7 +24,7 @@ body {
 	width: 326.46px;
 	left: -39.61px;
 	height: 770px;
-top: 156px;
+	top: 156px;
 	
 	z-index: -1;
 
@@ -32,47 +32,49 @@ top: 156px;
 
 .vector2{
 	position: absolute;
-height: 475.1px;
-left: 10.48%;
-top: 496px;
-z-index: -1;
+	height: 475.1px;
+	left: 10.48%;
+	top: 496px;
+	z-index: -1;
 
 
 }
 
 .vector3{
-position: absolute;
-width: 498px;
-height: 497px;
-right: -235px;
-top: 1700px;
+	position: absolute;
+	width: 498px;
+	height: 497px;
+	right: -235px;
+	top: 1700px;
+	z-index: -1;
 }
 
 .vector4{
-position: absolute;
-width: 398px;
-height: 497px;
-left: -10px;
-top: 2200px;
+	position: absolute;
+	width: 398px;
+	height: 497px;
+	left: -10px;
+	top: 2200px;
+	z-index: -1;
 }
 
 .vector6{
 	position: absolute;
-width: 92.35px;
-height: 86.48px;
-left: 140px;
-top: 4000px;
-transform: rotate(-10deg);
-z-index: -1;
+	width: 92.35px;
+	height: 86.48px;
+	left: 140px;
+	top: 4000px;
+	transform: rotate(-10deg);
+	z-index: -1;
 }
 
 .vector7{
 	position: absolute;
 
-left: 10px;
-top: 4100px;
+	left: 10px;
+	top: 4100px;
 
-z-index: -1;
+	z-index: -1;
 }
 
 .logo {
@@ -97,16 +99,16 @@ z-index: -1;
 	text-align: center;
 }
 
-#header{
-	
-	font-weight: 500;
+.header{
+	padding-top: 150px;
+	font-weight: 900;
 	font-size: 72px;
 	line-height: 78px;
 	letter-spacing: 0.2px;
 	color: #112D57;
 }
 
-#text{
+.headertext{
 	font-weight: 450;
 	font-size: 24px;
 	line-height: 38px;
@@ -127,8 +129,13 @@ z-index: -1;
 
 
 .banner-content {
-    width: 50%;
-        text-align: center;
+	width: 50%;
+	text-align: center;
+}
+
+.btn-grp{
+	padding-top: 70px;
+
 }
 
 .btn-try {
@@ -136,85 +143,164 @@ z-index: -1;
 
 	background: #fff;
 	border: 1px solid #fff;
- 	box-sizing: border-box;
+	box-sizing: border-box;
 	border-radius: 85px;
 	color: black;
 	padding: 10px 50px 10px 50px;
+	font-weight: bold;
 
 }
 
+.card-marg{
+	margin-top: 180px;
+}
 
 .btn-blue {
 	background: #00B6F0;
 	border: 1px solid #fff;
- 	box-sizing: border-box;
+	box-sizing: border-box;
 	border-radius: 85px;
-	padding: 10px 50px 10px 50px;
+	padding: 15px 50px 10px 50px;
+	font-weight: bold;
 }
+
+.btn-login {
+	background: #fff;
+	border: 1px solid #00B6F0;
+	box-sizing: border-box;
+	border-radius: 85px;
+	color: #00B6F0;
+	padding: 15px 50px 10px 50px;
+	font-weight: bold;
+}
+
 
 .btn-white {
 	background: #fff;
-	border: 1px solid #00B6F0;
- 	box-sizing: border-box;
+	border: 2px solid #00B6F0;
+	box-sizing: border-box;
 	border-radius: 85px;
-	color: black;
-	padding: 10px 50px 10px 50px;
+	color: #00B6F0;
+	padding: 15px 50px 10px 50px;
+	font-weight: bold;
 }
 
+.btn-margin{
 
+	margin: 50px 5px 0px 5px;
+}
 
 .banner1{
-	width: 50%;
-        text-align: center;
-        margin-top: 40px;
+	
+	text-align: center;
+	margin-top: 80px;
+
 }
 
 .text1{
-	 
-        color: #F3CD03;
-        margin-bottom: 10px;
+
+	color: #F3CD03;
+	margin-bottom: 30px;
+	font-weight: 450;
+	font-size: 36px;
+	line-height: 42px;
 
 }
 
 .text2{
-	font-size: 56px;
-	 margin-bottom: 10px;
-	 padding-bottom: 80px;
+
+	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 65px;
 }
 
 .text3{
-	font-size: 24px;
-	 margin-bottom: 10px;
+	font-size: 19px;
+	margin-bottom: 10px;
+	color: #5C5C5C;
+	font-weight: 450;
+	letter-spacing: 0.2px;
 
 }
 
 
 .text4{
+	
+	font-weight: 450;
 	font-size: 36px;
+	line-height: 42px;
+	margin-left: 100px;
 }
 
 .text5{
 	font-size: 24px;
 	padding-top: 20px;
+	font-weight: 450;
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0.2px;
+	color: #5C5C5C;
+	margin-left: 100px;
 
 }
 
-.box{
+
+.learn{
+	font-weight: 450;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: 0.2px;
+	color: #00B6F0;
+	margin-left: 100px;
+}
+
+
+
+.box1{
 	width: 50%;
-	padding: 120px;
-        text-align: left;
+	padding: 70px 0px 0px 60px;
+	text-align: left;
+}
+.box2{
+	width: 50%;
+	padding: 70px 110px 0px 0px;
+	text-align: left;
+	margin-top: 150px;
+}
+
+.center1{
+	text-align: center;
+	padding: 0px 110px 0px 0px;
+}
+.center2{
+	text-align: center;
+	padding: 0px 0px 0px 110px;
+	margin-top: 150px;
 }
 
 
 .process{
-	width: 75%;
-	 text-align: center;
+	width: 59%;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.bar{
+	width: 50%
 
 }
 
+.bar-back{
+	border-radius: 9.5px;
+}
+
 .txt{
-	width: 75%;
+	width: 59%;
 	text-align: center;
+	font-size: 13px;
+	padding-top: 10px;
+	font-weight: bold;
 }
 
 .digit{
@@ -235,14 +321,12 @@ z-index: -1;
 	padding-bottom: 80px;
 }
 
-.center{
-	text-align: center;
-}
+
 
 .card{
 	border-width: 0px;
 	z-index: -2;
-	 max-width: 440px;
+	max-width: 440px;
 
 }
 
@@ -251,14 +335,14 @@ z-index: -1;
 }
 
 .dark{
-	 background: #182333;
-	 width: 100%;
-height: 496px;
+	background: #182333;
+	width: 100%;
+	height: 496px;
 
 }
 
 .top{
-		z-index: 3;
+	z-index: 3;
 }
 
 .card1{
