@@ -197,6 +197,14 @@ body {
 
 }
 
+.banner2{
+	
+	text-align: center;
+	margin-top: 160px;
+
+}
+
+
 .text1{
 
 	color: #F3CD03;
@@ -242,6 +250,21 @@ body {
 	letter-spacing: 0.2px;
 	color: #5C5C5C;
 	margin-left: 100px;
+
+}
+
+.text6{
+	padding-bottom: 70px;
+}
+
+.text7{
+		font-size: 18px;
+	padding-top: 20px;
+	font-weight: 450;
+	
+	letter-spacing: 0.2px;
+	color: #5C5C5C;
+	padding-bottom: 30px;
 
 }
 
@@ -293,6 +316,7 @@ body {
 
 .bar-back{
 	border-radius: 9.5px;
+
 }
 
 .txt{
@@ -314,11 +338,11 @@ body {
 .Testimonials{
 	text-align: center;
 	padding: 200px;
-
 }
 
 .ibm{
 	padding-bottom: 80px;
+	padding-bottom: 70px;
 }
 
 
@@ -327,11 +351,30 @@ body {
 	border-width: 0px;
 	z-index: -2;
 	max-width: 440px;
+}
+
+
+
+.user{
+	height: 80px;
+	widows: 80px;
+	padding-left: 50px;
 
 }
 
-.crd{
-	padding: 50px;
+.user-title{
+	font-size: 18px;
+
+}
+
+.user-text{
+	color: #5C5C5C;
+	font-size: 18px;
+}
+
+.user-detail{
+	text-align: left;
+	padding:20px 0px 30px 30px;
 }
 
 .dark{
@@ -349,7 +392,8 @@ body {
 
 	background: #182333;
 	color: white;
-	padding-top: 130px;
+	padding-top: 100px;
+	width: 28rem;
 
 }
 .card2{
@@ -357,8 +401,11 @@ body {
 	background: #182333;
 	color: white;
 	padding-top: 130px;
+	width: 18rem;
 
 }
 
-
+.textbox{
+	padding: 10% 10% 0% 10%; 
+}
 
