@@ -236,6 +236,15 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 20px;
 }
 
+.text9{
+	font-size: 18px;
+	padding-top: 20px;
+	font-weight: 450;
+	letter-spacing: 0.2px;
+	color: #5C5C5C;
+
+
+}
 .digit{
 	text-align: right;
 }
@@ -256,7 +265,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 20px;
 }
 
+.text-logo{
+	font-size: 16px;
+	
+	font-weight: 450;
+	letter-spacing: 0.2px;
+	color: #5C5C5C;
+	
 
+}
 
 
 
@@ -284,7 +301,8 @@ h1, h2, h3, h4, h5, h6 {
 	box-sizing: border-box;
 	border-radius: 85px;
 	color: #00B6F0;
-	padding: 15px 50px 10px 50px;
+	padding: 15px 50px 15px 50px;
+	margin-left: 70px;
 	font-weight: bold;
 }
 .btn-try {
@@ -345,6 +363,16 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 0.2px;
 	color: #00B6F0;
 	
+}
+
+.btn-textbox{
+	background: #00B6F0;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	border-radius: 85px;
+	padding: 15px 50px 10px 50px;
+	font-weight: bold;
+	margin-bottom: 120px;
 }
 
 
@@ -699,6 +727,10 @@ h1, h2, h3, h4, h5, h6 {
 	.doller-txt{
 		font-size: 20px;
 	}
+
+	.btn-textbox{
+	margin-bottom: 50px;
+}
 
 }
 
