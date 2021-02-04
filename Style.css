@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	width: 298px;
 	height: 497px;
-	right: -235px;
+	right: -220px;
 	top: 2100px;
 
 }
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 .vector7{
 	position: absolute;
 
-	left: 3px;
+	left: -3px;
 	top: 4200px;
 
 	z-index: -1;
