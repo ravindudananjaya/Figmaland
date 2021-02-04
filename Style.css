@@ -69,8 +69,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
-
 /*NAVBAR*/
 
 .nav-item {
@@ -305,6 +303,19 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 70px;
 	font-weight: bold;
 }
+
+.sml-login{
+	background: #fff;
+	border: 1px solid #00B6F0;
+	box-sizing: border-box;
+	border-radius: 85px;
+	color: #00B6F0;
+	padding: 15px 50px 15px 50px;
+	margin-left: 70px;
+	font-weight: bold;
+}
+
+
 .btn-try {
 	
 
@@ -462,6 +473,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .userimg{
 	height: 80px;
+	padding-left: 25px;
+	padding-top: 25px;
+
 }
 
 .ibm{
@@ -594,7 +608,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.btn-login{
-		padding: 7px 20px 10px 20px;
+		padding: 15px 50px 15px 50px;
 		margin-left: 0px;
 		margin-right: 0px;
 	}
@@ -695,7 +709,8 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.userimg{
-		height: 50px;
+		height: 100px;
+		padding-left: 0px;
 	}
 
 	.textbox{
