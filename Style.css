@@ -283,6 +283,11 @@
 
 	}
 
+	.sm-text1{
+			padding-bottom: 20px;
+		}
+
+
 
 
 
@@ -537,7 +542,6 @@
 
 
 
-
 	/*MEDIA*/
 	@media screen and (max-width: 576px) {
 
@@ -553,6 +557,11 @@
 		.lg-paragraph{
 			display: none;
 		}
+
+		.lg-text1{
+			display: none;
+		}
+
 
 		.vector1{
 			position: absolute;
@@ -742,7 +751,7 @@
 		.social{
 			padding-left: 10px;
 			padding-bottom: 20px;
-			padding-top: 20px;
+			padding-top: 50px;
 			width: 30px;
 		}
 
@@ -812,6 +821,10 @@
 		}
 
 		.sm-paragraph{
+			display: none;
+		}
+
+		.sm-text1{
 			display: none;
 		}
 
