@@ -99,65 +99,67 @@
 
 	/*VECTORS*/
 
+	.vectors{
+		width: 100%;
+	}
+
 	.vector1{
-		position: absolute;
-		width: 326.46px;
-		left: -39.61px;
-		height: 770px;
-		top: 156px;
-		
-		z-index: -1;
-
-	}
-
-	.vector2{
-		position: absolute;
-		height: 475.1px;
-		left: 10.48%;
-		top: 496px;
-		z-index: -4;
-
-
-	}
-
-	.vector3{
-		position: absolute;
-		width: 298px;
-		height: 497px;
-		right: -220px;
-		top: 2100px;
-
-	}
-
+	position: absolute;
+	width: 326.46px;
+	left: -39.61px;
+	height: 770px;
+	top: 156px;
 	
-	.vector4{
-		position: absolute;
-		width: 368px;
-		height: 497px;
-		left: -10px;
-		top: 2550px;
-		z-index: -1;
-	}
+	z-index: -1;
 
-	.vector6{
-		position: absolute;
-		width: 92.35px;
-		height: 86.48px;
-		left: 140px;
-		top: 4100px;
-		transform: rotate(-10deg);
-		z-index: -1;
-	}
+}
 
-	.vector7{
-		position: absolute;
+.vector2{
+	position: absolute;
+	height: 475.1px;
+	left: 10.48%;
+	top: 496px;
+	z-index: -1;
 
-		left: -3px;
-		top: 4200px;
 
-		z-index: -1;
-	}
+}
 
+.vector3{
+	position: absolute;
+	width: 298px;
+	height: 497px;
+	right: -235px;
+	top: 2100px;
+
+}
+
+.vector4{
+	position: absolute;
+	width: 368px;
+	height: 497px;
+	left: -10px;
+	top: 2550px;
+	z-index: -1;
+}
+
+.vector6{
+	position: absolute;
+	width: 92.35px;
+	height: 86.48px;
+	left: 140px;
+	top: 4100px;
+	transform: rotate(-10deg);
+	z-index: -1;
+}
+
+.vector7{
+	position: absolute;
+
+	left: 3px;
+	top: 4200px;
+
+	z-index: -1;
+}
 
 
 
@@ -318,16 +320,7 @@
 		font-weight: bold;
 	}
 
-	.sml-login{
-		background: #fff;
-		border: 1px solid #00B6F0;
-		box-sizing: border-box;
-		border-radius: 85px;
-		color: #00B6F0;
-		padding: 15px 50px 15px 50px;
-		margin-left: 70px;
-		font-weight: bold;
-	}
+
 
 
 	.btn-try {
@@ -544,8 +537,8 @@
 	@media screen and (max-width: 576px) {
 
 
-		.vector1 , .vector2 , .vector3 , .vector4 , .vector6 , .vector7 {
-			
+		.vectors {
+			display: none;
 		}
 
 		body{
@@ -635,9 +628,7 @@
 		}
 
 
-		.lrg-login {
-			display: none;
-		}
+		
 
 		.bottom-navi-lrg {
 			display: none;
@@ -826,6 +817,7 @@
 
 	@media screen and (min-width: 576px) {
 		
+
 		.vector4-sm{
 		display: none;
 	}
@@ -835,9 +827,7 @@
 	}
 
 
-		.sml-login {
-			display: none;
-		}
+		
 
 		.bottom-navi-sml {
 			display: none;
@@ -865,4 +855,24 @@
 		}
 	}
 
+/*TAB SIZE*/
+@media screen and (max-width: 992px){
+	
+		.lrg-login{
+		display: none;
+	}
 
+	.sml-login{
+		padding: 8px 39px 8px 39px;
+
+	}
+}
+
+@media screen and (min-width: 992px){
+	
+		.sml-login {
+			display: none;
+
+		
+	}
+}
