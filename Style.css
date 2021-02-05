@@ -131,6 +131,7 @@
 
 	}
 
+	
 	.vector4{
 		position: absolute;
 		width: 368px;
@@ -547,7 +548,7 @@
 
 
 		.vector1 , .vector2 , .vector3 , .vector4 , .vector6 , .vector7 {
-			display: none;
+			
 		}
 
 		body{
@@ -565,9 +566,9 @@
 
 		.vector1{
 			position: absolute;
-			width: 326.46px;
+			width: 126.46px;
 			left: -39.61px;
-			height: 770px;
+			height: 570px;
 			top: 156px;
 			z-index: -1;
 
@@ -575,32 +576,42 @@
 
 		.vector2{
 			position: absolute;
-			height: 5.1px;
-			width: 5px;
-			left: 10.48%;
+			height: 270px;
+			width: 66.46px;
+			left: 20.48%;
 			top: 496px;
-			z-index: -1;
+			z-index: 5;
 			
 
 		}
 
-		.vector3{
-			position: absolute;
-			width: 98px;
-			height: 97px;
-			right: -35px;
-			top: 2100px;
-
-		}
-
-		.vector4{
-			position: absolute;
+		.vector4-sm{
+		
+		position: absolute;
 			width: 368px;
 			height: 497px;
 			left: -10px;
 			top: 2550px;
 			z-index: -1;
 
+		}
+
+		.vector3-sm{
+		
+		position: absolute;
+			width: 98px;
+			height: 97px;
+			
+			top: 2100px;
+		}
+
+		.vector3{
+			display: none;
+
+		}
+
+		.vector4{
+			display: none;
 		}
 
 		.vector6{
@@ -803,6 +814,16 @@
 
 
 	@media screen and (min-width: 576px) {
+		
+		.vector4-sm{
+		display: none;
+	}
+
+	.vector3-sm{
+		display: none;
+	}
+
+
 		.sml-login {
 			display: none;
 		}
