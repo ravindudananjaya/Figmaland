@@ -30,8 +30,6 @@
 
 
 
-
-
 	/*CONTAINERS*/
 
 	.container{
@@ -117,7 +115,7 @@
 		height: 475.1px;
 		left: 10.48%;
 		top: 496px;
-		z-index: -1;
+		z-index: -4;
 
 
 	}
@@ -459,8 +457,7 @@
 
 	.details-sec-container{
 		padding-top: 170px;
-	}
-
+}
 
 	.details-sec1{
 		width: 100%
@@ -538,7 +535,7 @@
 	.bottom-navi-lrg {
 		padding-bottom: 50px;
 	}
-
+	
 
 
 
@@ -554,6 +551,8 @@
 		body{
 			background: linear-gradient(180deg, rgba(255, 255, 255, 0.22) 2.02%, rgba(0, 225, 198, 0.3) 6.5%, #FFFFFF 15.92%);
 		}
+
+		
 
 		.lg-paragraph{
 			display: none;
@@ -645,6 +644,14 @@
 
 		}
 
+		.order-two{
+			order: 2;
+		}
+
+		.order-one{
+			order: 1;
+		}
+
 		.logo{
 			height: 40px;
 			width: 120px;
@@ -659,6 +666,10 @@
 		.container-dark{
 			text-align: center;
 			width: 100%;
+		}
+
+		.details-sec1-lg{
+			display: none;
 		}
 
 		.btn-margin-top{
@@ -849,6 +860,9 @@
 			display: none;
 		}
 
+		.details-sec1-sm{
+			display: none;
+		}
 	}
 
 
