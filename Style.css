@@ -621,11 +621,14 @@
 		}
 
 		.vector7{
+			display: none;
+		}
+
+		.vector7-sm{
 			position: absolute;
 			width: 200px;
 			right: 0px;
-			top: 3550px;
-
+			top: 3500px;
 			z-index: -1;
 
 		}
@@ -837,8 +840,9 @@
 			display: none;
 		}
 
-
-		
+		.vector7-sm{
+			display: none;
+		}
 
 		.bottom-navi-sml {
 			display: none;
