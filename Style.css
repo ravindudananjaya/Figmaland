@@ -533,7 +533,7 @@
 	}
 
 	.Pricing{
-		padding: 0% 8% 8% 0%;
+		padding: 0% 0% 8% 0%;
 
 	}
 
@@ -701,7 +701,8 @@
 		.container-dark{
 			text-align: center;
 			width: 100%;
-			padding-bottom: 50px;
+			padding-bottom: 30px;
+			padding-top:30px;
 		}
 
 		.details-sec1-lg{
@@ -854,7 +855,7 @@
 		}
 
 		.pr-txt{
-		font-size: 1.5vw;
+			font-size: 16px;
 		}
 
 		.doller{
