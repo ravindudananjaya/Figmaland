@@ -1,2 +1,3 @@
-vectrs
-main bottom nav bar left align
+
+cnvrt to html
+slick-slider
