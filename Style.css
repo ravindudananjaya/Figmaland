@@ -9,9 +9,22 @@
 		font-weight: 500;
 	}
 
+	.padd-top{
+		padding-top: 50px;
+	}
+
+	.padd-bottom{
+		padding-top: 20px; 
+		padding-bottom: 30px;
+	}
 
 	.align-center{
 		text-align: center;
+
+	}
+
+	.learn-padd{
+		padding-bottom: 20px;
 	}
 
 	.txt-size1{
@@ -85,6 +98,7 @@
 
 	.navbar-container{
 		padding-top: 20px;
+		padding-bottom: 70px;
 	}
 
 	.nav-item {
@@ -210,7 +224,7 @@
 
 	.text-header{
 
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 		font-weight: 900;
 		font-size: 75px;
 		line-height: 78px;
@@ -312,6 +326,8 @@
 
 	.doller-txt{
 		font-size: 20px;
+		padding-bottom: 40px;
+
 	}
 
 	.text-logo{
@@ -342,9 +358,10 @@
 
 
 
+
 	/*IMAGES*/
 	.screen{
-		padding-top: -100px;
+		margin-top: -40px;
 	}
 
 
@@ -409,8 +426,13 @@
 	}
 
 	.btn-margin-top{
-		margin-top: 70px;
+		margin-top: 50px;
 	}
+
+	.btn-margin-top2{
+		margin-top: 20px;
+	}
+
 
 	.btn-margin-bottom{
 		margin-bottom: 50px;
@@ -421,8 +443,7 @@
 		font-size: 18px;
 		line-height: 20px;
 		letter-spacing: 0.2px;
-		color: #00B6F0;
-		
+		color: #00B6F0;		
 	}
 
 	.btn-textbox{
@@ -455,19 +476,20 @@
 		
 		text-align: center;
 		margin-top: 80px;
+		margin-bottom: 20px;
 
 	}
 
 	.banner2{
 		
 		text-align: center;
-		margin-top: 160px;
+		margin-top: 140px;
 		width: 85%
 	}
 
 	.progress-container{
 		width: 60%;
-		padding-top: 120px;
+		padding-top: 50px;
 	}
 
 	.progress-text{
@@ -535,6 +557,7 @@
 }
 
 .ibm{
+	padding-top: 10px;
 	padding-bottom: 60px;
 }
 
@@ -868,6 +891,7 @@
 
 	.pricing-amount-sec{
 		padding-bottom: 30px;
+
 	}
 
 	.Pricing{
@@ -918,9 +942,6 @@
 		padding: 15px 25px 15px 25px;
 	}
 
-	.padd-bottom{
-		padding-bottom: 60px;
-	}
 
 	.align-center{
 		text-align: center;
@@ -961,10 +982,7 @@
 		line-height: 60px;
 	}
 
-	.progress-container{
-		width: 60%;
-		padding-top: 50px;
-	}
+	
 
 	.sm-paragraph{
 		display: none;
