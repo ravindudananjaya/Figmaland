@@ -1,1 +1,2 @@
 vectrs
+main bottom nav bar left align
